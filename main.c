@@ -5,6 +5,12 @@
  * Author : Armin
  */ 
 
+// Funkciok:
+//   Gomb 0 - LCD-re kiirja funkciokat
+//   Gomb 1 - Uart-ra kikuldi beallitas menut
+//   Gomb 2 - Sevseg ertek megjelenites ki/be kapcsolas
+//   Gomb 3 - LCD ertek megjelenits ki/be kapcsolat
+
 #include <avr/io.h>
 #include "adc/adc.h"
 #include "buttons/button.h"
